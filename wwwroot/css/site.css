@@ -28,7 +28,7 @@ html {
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem aquamarine);
+  box-shadow: 0 .25rem .75rem rgb(54, 211, 158));
 }
 
 button.accept-policy {
@@ -60,6 +60,14 @@ table {
 
 td, th, tr {
     border: 2px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: azure;
+}
+
+tr:nth-child(odd) {
+    background-color: skyblue;
 }
 .footer {
   position: absolute;
